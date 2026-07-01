@@ -40,20 +40,18 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Danjo', 'Do Hyeon', 'Apple SD Gothic Neo', sans-serif;
+  font-family: 'Danjo', 'Noto Sans KR', sans-serif;
   font-weight: 400;
   color: var(--ink);
   margin: 0;
 }
 
 .type-en {
-  font-family: 'Josefin Sans', sans-serif;
-  font-style: italic;
   font-weight: 600;
   color: var(--terracotta);
 }
 
-.mono { font-family: 'Space Mono', monospace; }
+.mono { font-family: 'Noto Sans KR', sans-serif; }
 
 a { color: inherit; }
 img { max-width: 100%; display: block; }
@@ -88,7 +86,7 @@ img { max-width: 100%; display: block; }
   height: 82px;
 }
 .site-logo {
-  font-family: 'Danjo', 'Do Hyeon', sans-serif;
+  font-family: 'Danjo', 'Noto Sans KR', sans-serif;
   font-size: 20px;
   display: flex;
   align-items: baseline;
@@ -97,7 +95,7 @@ img { max-width: 100%; display: block; }
   color: var(--ink);
 }
 .site-logo .en {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 10px;
   letter-spacing: 0.18em;
   color: var(--orange-dark);
@@ -122,7 +120,7 @@ img { max-width: 100%; display: block; }
   gap: 8px;
   padding: 12px 26px;
   border-radius: 999px;
-  font-family: 'Danjo', 'Do Hyeon', sans-serif;
+  font-family: 'Danjo', 'Noto Sans KR', sans-serif;
   font-size: 14px;
   text-decoration: none;
   background: var(--orange);
@@ -154,13 +152,14 @@ img { max-width: 100%; display: block; }
   align-items: center;
 }
 .hero-logo {
+  display: block;
   height: 128px;
   width: auto;
-  margin-bottom: 24px;
+  margin: 0 auto 24px;
 }
 .hero-eyebrow {
   display: inline-block;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -216,7 +215,7 @@ img { max-width: 100%; display: block; }
 }
 .ticker-track { display: inline-flex; animation: ticker-scroll 32s linear infinite; }
 .ticker-track span {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 12px;
   letter-spacing: 0.05em;
   color: var(--ink-soft);
@@ -232,7 +231,7 @@ img { max-width: 100%; display: block; }
 .section-head { max-width: 620px; margin: 0 auto 56px; text-align: center; }
 .section-eyebrow {
   display: inline-block;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 11.5px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -260,7 +259,7 @@ img { max-width: 100%; display: block; }
 .heritage-card .h-body { padding: 20px 20px 22px; }
 .heritage-card .h-year {
   display: inline-block;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 11px;
   letter-spacing: 0.06em;
   color: var(--on-dark);
@@ -308,7 +307,7 @@ img { max-width: 100%; display: block; }
 .work-item:nth-child(3) .work-overlay { background: linear-gradient(160deg, rgba(201,123,110,0.05), rgba(181,63,22,0.82)); }
 .work-item:hover .work-overlay { opacity: 1; }
 .work-overlay h4 { color: var(--on-dark); font-size: 17px; margin-bottom: 4px; }
-.work-overlay span { color: rgba(251,238,224,0.85); font-size: 12px; font-family: 'Space Mono', monospace; }
+.work-overlay span { color: rgba(251,238,224,0.85); font-size: 12px; font-family: 'Noto Sans KR', sans-serif; }
 
 /* ------ 프로그램 카드 ------ */
 .program-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
@@ -331,7 +330,7 @@ img { max-width: 100%; display: block; }
 .tag-pill {
   display: inline-flex;
   align-items: center;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 10.5px;
   letter-spacing: 0.04em;
   padding: 5px 12px;
@@ -355,7 +354,7 @@ img { max-width: 100%; display: block; }
   font-weight: 500;
   color: var(--ink-soft);
 }
-.tag-chip strong { color: var(--ink); font-family: 'Danjo', 'Do Hyeon', sans-serif; font-weight: 400; }
+.tag-chip strong { color: var(--ink); font-family: 'Danjo', 'Noto Sans KR', sans-serif; font-weight: 400; }
 
 /* ------ 상품 카드 ------ */
 .shop-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
@@ -378,7 +377,7 @@ img { max-width: 100%; display: block; }
 .shop-body { padding: 20px 22px 24px; }
 .shop-body h3 { font-size: 16.5px; margin-bottom: 6px; }
 .shop-body p { font-size: 13px; color: var(--ink-soft); font-weight: 500; margin: 0; }
-.shop-price { font-family: 'Space Mono', monospace; color: var(--terracotta-dark); font-size: 14px; margin-top: 10px; display: block; }
+.shop-price { font-family: 'Noto Sans KR', sans-serif; color: var(--terracotta-dark); font-size: 14px; margin-top: 10px; display: block; }
 
 /* ------ 김용기 대표작 갤러리 ------ */
 .painting-gallery {
@@ -437,7 +436,7 @@ img { max-width: 100%; display: block; }
 .visit-detail-list { list-style: none; margin: 0 0 28px; padding: 0; display: flex; flex-direction: column; gap: 16px; }
 .visit-detail-list li { display: grid; grid-template-columns: 84px 1fr; gap: 14px; font-size: 14.5px; font-weight: 500; }
 .visit-detail-list .label {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 11px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -490,7 +489,7 @@ img { max-width: 100%; display: block; }
 .footer-brand p { font-size: 13px; color: var(--ink-soft); max-width: 260px; margin: 0; font-weight: 500; }
 .footer-col span {
   display: block;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -506,7 +505,7 @@ img { max-width: 100%; display: block; }
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 11.5px;
   color: var(--ink-faint);
 }
