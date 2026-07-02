@@ -683,8 +683,8 @@ img { max-width: 100%; display: block; }
 .newsletter .blob-deco--b { width: 180px; height: 180px; background: var(--rose); opacity: 0.35; bottom: -30px; right: 10%; }
 .newsletter-inner { position: relative; z-index: 2; max-width: 480px; margin: 0 auto; }
 .newsletter h2 { font-size: 30px; margin-bottom: 12px; }
-.newsletter-heading { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
-.newsletter-logo { height: 40px; width: auto; display: inline-block; }
+.newsletter-heading { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; }
+.newsletter-logo { height: 60px; width: auto; display: inline-block; }
 .newsletter p { font-size: 14.5px; color: var(--ink-soft); margin-bottom: 30px; font-weight: 500; }
 .newsletter-form {
   display: flex;
