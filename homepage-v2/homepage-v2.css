@@ -275,7 +275,7 @@ img { max-width: 100%; display: block; }
 .program-back:hover { color: var(--terracotta); }
 .program-detail-head { max-width: 640px; margin: 0 auto 48px; text-align: center; }
 .program-detail-head h1 { font-size: 36px; line-height: 1.3; margin: 14px 0 18px; }
-.program-detail-lead { font-size: 15.5px; color: var(--ink-soft); font-weight: 500; margin: 18px 0 0; }
+.program-detail-lead { font-size: 15.5px; color: var(--ink-soft); font-weight: 500; margin: 18px 0 0; word-break: keep-all; }
 .program-detail-grid {
   display: grid;
   grid-template-columns: 340px 1fr;
