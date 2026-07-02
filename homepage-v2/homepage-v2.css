@@ -369,6 +369,13 @@ img { max-width: 100%; display: block; }
   margin: 0 auto 72px;
 }
 .artist-profile-grid .placeholder-box { aspect-ratio: 3 / 4; }
+.artist-profile-grid .artist-work-photo {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+}
 .artist-bio p { font-size: 15px; color: var(--ink-soft); font-weight: 500; margin: 0 0 16px; }
 .artist-works-grid {
   display: grid;
@@ -378,9 +385,19 @@ img { max-width: 100%; display: block; }
   margin: 0 auto;
 }
 .artist-works-grid .placeholder-box { aspect-ratio: 4 / 5; }
+.artist-works-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.artist-works-grid img:hover { transform: translateY(-4px); box-shadow: var(--card-shadow-hover); }
 @media (max-width: 760px) {
   .artist-profile-grid { grid-template-columns: 1fr; }
-  .artist-profile-grid .placeholder-box { max-width: 220px; margin: 0 auto; }
+  .artist-profile-grid .placeholder-box,
+  .artist-profile-grid .artist-work-photo { max-width: 220px; margin: 0 auto; }
   .artist-works-grid { grid-template-columns: 1fr 1fr; }
 }
 
