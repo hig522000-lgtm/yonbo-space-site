@@ -708,7 +708,7 @@ img { max-width: 100%; display: block; }
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  margin: 26px auto 0;
+  margin: 46px auto 0;
   padding: 14px 26px;
   background: #fff;
   border: 1.5px solid var(--terracotta);
