@@ -250,6 +250,56 @@ img { max-width: 100%; display: block; }
 .section-head h2 { font-size: 34px; }
 .section-lead { font-size: 14.5px; color: var(--ink-soft); margin-top: 14px; font-weight: 500; }
 
+/* ------ 프로그램 상세 페이지 ------ */
+.program-detail { padding: 64px 0 110px; }
+.program-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink-soft);
+  text-decoration: none;
+  margin-bottom: 36px;
+  transition: color 0.3s ease;
+}
+.program-back:hover { color: var(--terracotta); }
+.program-detail-head { max-width: 640px; margin: 0 auto 48px; text-align: center; }
+.program-detail-head h1 { font-size: 36px; line-height: 1.3; margin: 14px 0 18px; }
+.program-detail-lead { font-size: 15.5px; color: var(--ink-soft); font-weight: 500; margin: 18px 0 0; }
+.program-detail-grid {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 56px;
+  align-items: start;
+  max-width: 920px;
+  margin: 0 auto;
+}
+.reel-frame {
+  aspect-ratio: 9 / 16;
+  border-radius: 20px;
+  overflow: hidden;
+  background: var(--ink);
+  box-shadow: var(--card-shadow);
+}
+.reel-frame video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.reel-caption { text-align: center; font-size: 12.5px; color: var(--ink-faint); margin-top: 12px; font-weight: 500; }
+.program-detail-body p { font-size: 15px; color: var(--ink-soft); font-weight: 500; margin: 0 0 18px; }
+.program-detail-body h4 { font-size: 14px; margin: 28px 0 10px; }
+.program-audience { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.program-audience li {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  background: var(--cream-deep);
+  border-radius: 999px;
+  padding: 7px 16px;
+}
+@media (max-width: 760px) {
+  .program-detail-grid { grid-template-columns: 1fr; }
+  .reel-frame { max-width: 300px; margin: 0 auto; }
+}
+
 /* ------ 헤리티지 카드 (rounded-3xl warm cards) ------ */
 .heritage-grid {
   display: grid;
@@ -334,12 +384,15 @@ img { max-width: 100%; display: block; }
 /* ------ 프로그램 카드 ------ */
 .program-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
 .program-card {
+  display: block;
   background: #fff;
   border: none;
   border-radius: 16px;
   padding: 32px;
   box-shadow: var(--card-shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
 }
 .program-card:hover { transform: translateY(-4px); box-shadow: var(--card-shadow-hover); }
 .program-card.has-photo { padding: 0 0 32px; overflow: hidden; }
@@ -347,6 +400,13 @@ img { max-width: 100%; display: block; }
 .program-card .p-photo img { width: 100%; height: 100%; object-fit: cover; }
 .program-card.has-photo h3, .program-card.has-photo p, .program-card.has-photo .tag-pill { margin-left: 32px; margin-right: 32px; }
 .program-card.has-photo .tag-pill { margin-bottom: 4px; display: inline-flex; }
+.card-more {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--terracotta-dark);
+  margin-top: 16px;
+}
 .program-card h3 { font-size: 17.5px; margin-bottom: 10px; }
 .program-card p { font-size: 13.5px; color: var(--ink-soft); font-weight: 500; margin: 0 0 14px; }
 
