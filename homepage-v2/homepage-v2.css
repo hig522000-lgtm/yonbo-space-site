@@ -45,6 +45,7 @@ body {
   color: var(--ink);
   font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
   line-height: 1.7;
+  letter-spacing: -0.02em;
   overflow-x: hidden;
 }
 
@@ -186,9 +187,9 @@ img { max-width: 100%; display: block; }
 }
 .hero-logo-white {
   display: block;
-  height: 128px;
+  height: 104px;
   width: auto;
-  margin: 0 0 22px 40px;
+  margin: 0 0 18px 28px;
   background: transparent;
 }
 .hero-eyebrow {
