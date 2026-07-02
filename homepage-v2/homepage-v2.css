@@ -528,7 +528,7 @@ img { max-width: 100%; display: block; }
 .program-card.has-photo { padding: 0 0 32px; overflow: hidden; }
 .program-card .p-photo { aspect-ratio: 16 / 10; overflow: hidden; margin-bottom: 20px; }
 .program-card .p-photo img { width: 100%; height: 100%; object-fit: cover; }
-.program-card.has-photo h3, .program-card.has-photo p, .program-card.has-photo .tag-pill { margin-left: 32px; margin-right: 32px; }
+.program-card.has-photo h3, .program-card.has-photo p, .program-card.has-photo .tag-pill, .program-card.has-photo .card-more { margin-left: 32px; margin-right: 32px; }
 .program-card.has-photo .tag-pill { margin-bottom: 4px; display: inline-flex; }
 .card-more {
   display: block;
