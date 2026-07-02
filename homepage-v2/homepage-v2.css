@@ -184,6 +184,13 @@ img { max-width: 100%; display: block; }
   width: 100%;
   padding-bottom: 60px;
 }
+.hero-logo-white {
+  display: block;
+  height: 96px;
+  width: auto;
+  margin: 0 0 22px;
+  background: transparent;
+}
 .hero-eyebrow {
   display: inline-block;
   font-family: 'Noto Sans KR', sans-serif;
@@ -470,6 +477,18 @@ img { max-width: 100%; display: block; }
   z-index: 2;
   filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));
 }
+.work-item--brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--terracotta);
+}
+.work-item .work-brand-logo-center {
+  width: 58%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+.work-item--brand:hover .work-brand-logo-center { transform: scale(1.06); }
 .work-overlay {
   position: absolute;
   inset: 0;
