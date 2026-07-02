@@ -685,7 +685,7 @@ img { max-width: 100%; display: block; }
 .newsletter h2 { font-size: 30px; margin-bottom: 12px; }
 .newsletter-heading { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; }
 .newsletter-logo { height: 86px; width: auto; display: inline-block; }
-.heritage-logo-kr { height: 112px; width: auto; display: block; margin: 0 auto 18px; }
+.heritage-logo-kr { height: 168px; width: auto; display: block; margin: 0 auto 18px; }
 .newsletter p { font-size: 14.5px; color: var(--ink-soft); margin-bottom: 30px; font-weight: 500; }
 .newsletter-form {
   display: flex;
