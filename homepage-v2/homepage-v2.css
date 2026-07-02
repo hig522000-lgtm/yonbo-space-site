@@ -772,4 +772,5 @@ img { max-width: 100%; display: block; }
   .visit-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .painting-gallery { grid-template-columns: 1fr 1fr; }
+  .newsletter-instagram { white-space: normal; text-align: center; font-size: 13px; padding: 12px 20px; }
 }
