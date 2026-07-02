@@ -377,6 +377,11 @@ img { max-width: 100%; display: block; }
   box-shadow: var(--card-shadow);
 }
 .artist-profile-grid .artist-portrait-photo { object-position: 25% center; }
+.artist-profile-grid .artist-work-photo--full {
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+}
 .artist-bio p { font-size: 15px; color: var(--ink-soft); font-weight: 500; margin: 0 0 16px; }
 .artist-works-grid {
   display: grid;
