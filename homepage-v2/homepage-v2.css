@@ -131,6 +131,7 @@ img { max-width: 100%; display: block; }
   color: var(--ink-soft);
   transition: color 0.3s ease, transform 0.3s ease;
 }
+.site-social svg { width: 24px; height: 24px; }
 .site-social a:hover { color: var(--terracotta); transform: translateY(-2px); }
 
 .btn-pill {
@@ -643,7 +644,7 @@ img { max-width: 100%; display: block; }
 }
 .visit-photo-frame {
   aspect-ratio: 4 / 3;
-  border-radius: 20px;
+  border-radius: 36px;
   overflow: hidden;
   border: 1px solid var(--border-brown);
 }
