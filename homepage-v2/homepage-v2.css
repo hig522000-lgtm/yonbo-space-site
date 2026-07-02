@@ -113,7 +113,7 @@ img { max-width: 100%; display: block; }
 }
 .site-logo img { height: 70px; width: auto; }
 
-.brand-logo-badge { height: 200px; width: auto; margin: 0 auto 20px; }
+.brand-logo-badge { height: 240px; width: auto; margin: 0 auto 20px; }
 .site-nav {
   display: flex;
   align-items: center;
