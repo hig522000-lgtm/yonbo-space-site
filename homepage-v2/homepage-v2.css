@@ -502,11 +502,11 @@ img { max-width: 100%; display: block; }
   align-items: flex-end;
   padding: 22px;
 }
-.work-item:nth-child(1) .work-overlay { background: linear-gradient(160deg, rgba(232,121,42,0.05), rgba(217,79,30,0.82)); }
-.work-item:nth-child(2) .work-overlay { background: linear-gradient(160deg, rgba(217,164,65,0.05), rgba(201,99,29,0.82)); }
-.work-item:nth-child(4) .work-overlay { background: linear-gradient(160deg, rgba(201,123,110,0.05), rgba(181,63,22,0.82)); }
-.work-item:nth-child(5) .work-overlay { background: linear-gradient(160deg, rgba(217,164,65,0.05), rgba(217,79,30,0.82)); }
-.work-item:nth-child(3) .work-overlay { background: linear-gradient(160deg, rgba(201,123,110,0.05), rgba(181,63,22,0.82)); }
+.work-item:nth-child(1) .work-overlay { background: linear-gradient(160deg, rgba(232,121,42,0.1), rgba(197,64,15,0.94)); }
+.work-item:nth-child(2) .work-overlay { background: linear-gradient(160deg, rgba(217,164,65,0.1), rgba(181,79,14,0.94)); }
+.work-item:nth-child(4) .work-overlay { background: linear-gradient(160deg, rgba(201,123,110,0.1), rgba(161,43,7,0.94)); }
+.work-item:nth-child(5) .work-overlay { background: linear-gradient(160deg, rgba(217,164,65,0.1), rgba(197,64,15,0.94)); }
+.work-item:nth-child(3) .work-overlay { background: linear-gradient(160deg, rgba(201,123,110,0.1), rgba(161,43,7,0.94)); }
 .work-item:hover .work-overlay { opacity: 1; }
 .work-overlay h4 { color: var(--on-dark); font-size: 17px; margin-bottom: 4px; }
 .work-overlay span { color: rgba(251,238,224,0.85); font-size: 12px; font-family: 'Noto Sans KR', sans-serif; }
