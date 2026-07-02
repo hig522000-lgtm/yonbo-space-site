@@ -112,7 +112,7 @@ img { max-width: 100%; display: block; }
 }
 .site-logo img { height: 70px; width: auto; }
 
-.brand-logo-badge { height: 160px; width: auto; margin: 0 auto 20px; }
+.brand-logo-badge { height: 200px; width: auto; margin: 0 auto 20px; }
 .site-nav {
   display: flex;
   align-items: center;
@@ -186,9 +186,9 @@ img { max-width: 100%; display: block; }
 }
 .hero-logo-white {
   display: block;
-  height: 96px;
+  height: 128px;
   width: auto;
-  margin: 0 0 22px;
+  margin: 0 0 22px 40px;
   background: transparent;
 }
 .hero-eyebrow {
@@ -432,6 +432,7 @@ img { max-width: 100%; display: block; }
 .heritage-card .h-photo { aspect-ratio: 4 / 3; overflow: hidden; }
 .heritage-card .h-photo img { width: 100%; height: 100%; object-fit: cover; }
 .heritage-card .h-photo img.face-top { object-position: center 12%; }
+.heritage-card .h-photo img.no-crop { object-fit: contain; background: #fff; }
 .heritage-card .h-body { padding: 24px 24px 28px; }
 .heritage-card .h-year {
   display: inline-block;
