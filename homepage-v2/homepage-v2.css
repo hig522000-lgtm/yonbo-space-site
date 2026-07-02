@@ -300,6 +300,38 @@ img { max-width: 100%; display: block; }
   .reel-frame { max-width: 300px; margin: 0 auto; }
 }
 
+/* 영상 여러 개 (가로 배치) */
+.reel-list { display: flex; gap: 20px; }
+.reel-list .reel-frame { flex: 1; aspect-ratio: 9 / 16; }
+@media (max-width: 760px) {
+  .reel-list { max-width: 300px; margin: 0 auto; flex-direction: column; }
+}
+
+/* 사진 갤러리형 프로그램 (영상 없이 사진만) */
+.program-gallery-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  grid-template-rows: repeat(2, 200px);
+  gap: 20px;
+  max-width: 920px;
+  margin: 0 auto 56px;
+}
+.program-gallery-grid a,
+.program-gallery-grid img {
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+  display: block;
+}
+.program-gallery-grid img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+.program-gallery-grid a:hover img { transform: scale(1.05); }
+.program-gallery-grid a:first-child { grid-row: 1 / 3; }
+.program-detail-body-full { max-width: 640px; margin: 0 auto; text-align: left; }
+@media (max-width: 760px) {
+  .program-gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3, 160px); }
+  .program-gallery-grid a:first-child { grid-column: 1 / 3; grid-row: 1; height: 240px; }
+}
+
 /* ------ 헤리티지 카드 (rounded-3xl warm cards) ------ */
 .heritage-grid {
   display: grid;
