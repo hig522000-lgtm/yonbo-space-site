@@ -705,17 +705,28 @@ img { max-width: 100%; display: block; }
   color: var(--ink);
 }
 .newsletter-instagram {
-  margin: 22px 0 0;
-  font-size: 13.5px;
-  color: var(--ink-soft);
-  font-weight: 500;
-}
-.newsletter-instagram a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 26px auto 0;
+  padding: 14px 26px;
+  background: #fff;
+  border: 1.5px solid var(--terracotta);
+  border-radius: 999px;
   color: var(--terracotta-dark);
+  font-size: 14.5px;
   font-weight: 700;
   text-decoration: none;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
-.newsletter-instagram a:hover { text-decoration: underline; }
+.newsletter-instagram strong { font-weight: 900; }
+.newsletter-instagram:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow-hover);
+  background: var(--terracotta);
+  color: #fff;
+}
 
 /* ------ 푸터 ------ */
 .site-footer { background: var(--cream-deep); border-top: 1px solid var(--line); padding: 60px 0 0; }
