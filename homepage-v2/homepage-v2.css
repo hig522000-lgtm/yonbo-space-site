@@ -704,6 +704,18 @@ img { max-width: 100%; display: block; }
   font-family: 'Noto Sans KR', sans-serif;
   color: var(--ink);
 }
+.newsletter-instagram {
+  margin: 22px 0 0;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+.newsletter-instagram a {
+  color: var(--terracotta-dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+.newsletter-instagram a:hover { text-decoration: underline; }
 
 /* ------ 푸터 ------ */
 .site-footer { background: var(--cream-deep); border-top: 1px solid var(--line); padding: 60px 0 0; }
