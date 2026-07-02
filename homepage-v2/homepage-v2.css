@@ -391,6 +391,7 @@ img { max-width: 100%; display: block; }
   height: auto;
   object-fit: contain;
 }
+.artist-profile-grid--wide { grid-template-columns: 480px 1fr; max-width: 1040px; }
 .artist-bio p { font-size: 15px; color: var(--ink-soft); font-weight: 500; margin: 0 0 16px; }
 .artist-works-grid {
   display: grid;
