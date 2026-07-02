@@ -332,6 +332,58 @@ img { max-width: 100%; display: block; }
   .program-gallery-grid a:first-child { grid-column: 1 / 3; grid-row: 1; height: 240px; }
 }
 
+/* ------ 욘보노츠 상품 상세 페이지 ------ */
+.product-image-frame {
+  aspect-ratio: 1 / 1;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+}
+.product-image-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.product-detail-price { font-size: 20px; color: var(--terracotta-dark); font-weight: 700; margin: 4px 0 18px; display: block; }
+.product-buy-btn { margin-top: 8px; }
+
+/* ------ 준비 중 placeholder 박스 ------ */
+.placeholder-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--cream-deep);
+  border: 1.5px dashed var(--border-brown);
+  border-radius: 16px;
+  color: var(--ink-faint);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* ------ 김용기 화백 소개 페이지 ------ */
+.artist-profile-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 48px;
+  align-items: start;
+  max-width: 860px;
+  margin: 0 auto 72px;
+}
+.artist-profile-grid .placeholder-box { aspect-ratio: 3 / 4; }
+.artist-bio p { font-size: 15px; color: var(--ink-soft); font-weight: 500; margin: 0 0 16px; }
+.artist-works-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+.artist-works-grid .placeholder-box { aspect-ratio: 4 / 5; }
+@media (max-width: 760px) {
+  .artist-profile-grid { grid-template-columns: 1fr; }
+  .artist-profile-grid .placeholder-box { max-width: 220px; margin: 0 auto; }
+  .artist-works-grid { grid-template-columns: 1fr 1fr; }
+}
+
 /* ------ 헤리티지 카드 (rounded-3xl warm cards) ------ */
 .heritage-grid {
   display: grid;
@@ -475,12 +527,15 @@ img { max-width: 100%; display: block; }
 /* ------ 상품 카드 ------ */
 .shop-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
 .shop-card {
+  display: block;
   background: #fff;
   border: none;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: var(--card-shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
 }
 .shop-card:hover { transform: translateY(-4px); box-shadow: var(--card-shadow-hover); }
 .shop-swatch {
