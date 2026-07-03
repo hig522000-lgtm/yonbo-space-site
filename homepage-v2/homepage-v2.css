@@ -672,6 +672,14 @@ img { max-width: 100%; display: block; }
   display: inline-block;
   margin-top: 4px;
 }
+.visit-photo-frame--map { background: #fff; }
+.visit-photo-frame--map img {
+  object-fit: contain;
+  mix-blend-mode: normal;
+  filter: none;
+  padding: 12px;
+  box-sizing: border-box;
+}
 
 /* ------ 뉴스레터 (구독) ------ */
 .newsletter {
