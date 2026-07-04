@@ -739,6 +739,31 @@ img { max-width: 100%; display: block; }
   background: var(--terracotta);
   color: #fff;
 }
+.newsletter-contact {
+  margin-top: 34px;
+  padding-top: 26px;
+  border-top: 1px solid var(--border-brown);
+}
+.newsletter-contact p {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+}
+.newsletter-contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.newsletter-contact-info a { color: var(--ink); text-decoration: none; }
+.newsletter-contact-info a:hover { color: var(--terracotta); }
+.newsletter-contact-info span:nth-child(2) { color: var(--ink-faint); font-weight: 500; }
 
 /* ------ 푸터 ------ */
 .site-footer { background: var(--cream-deep); border-top: 1px solid var(--line); padding: 60px 0 0; }
