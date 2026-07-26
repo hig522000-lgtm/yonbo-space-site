@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hig522000-lgtm.github.io/yonbo-space-site/sitemap.xml
